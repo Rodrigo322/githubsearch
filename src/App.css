@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container-app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #525561;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: #272a37;
+  border-radius: 2rem;
+}
+
+.container-app .container {
+  padding: 3rem;
+  width: 80%;
+  height: 80%; 
+}
+
+.container-app .container .header-top ul {
+  display: flex;
+}
+
+.container-app .container .header-top ul li {
+  list-style: none;
+  margin-right: 5rem;
+  color: #4c66dd;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.container-app .container main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-app .container main input {
+  padding: 20px 10px;
+  border-radius: 2rem;
+  width: 400px;
+  background-color: #191622;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.container-app .container main button {
+  padding: 20px 10px;
+  border-radius: 2rem;
+  width: 200px;
+  background-color: #191622;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.container-app .container main .form h1 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.container-app .container main .content {
+  display: flex;
+}
+
+.container-app .container main .content div {
+  width: 700px;
+  height: 500px;
+  background-color: #191622;
+  border-radius: 2rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-app .container main .content div img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #4c66dd;
+}
+
+.container-app .container main .content div h1 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.container-app .container main .content div p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 2rem;
+}
